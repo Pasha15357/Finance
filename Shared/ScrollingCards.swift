@@ -9,21 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack (spacing: 20) {
-                ForEach(sectionData) { item in
-                    GeometryReader { geometry in
-                        SectionView(section: item)
-                            .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX - 30)) / -20, axis: (x: 0, y: 10, z: 0))
+        NavigationView {
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack (spacing: 20) {
+                    ForEach(sectionData) { item in
+                        GeometryReader { geometry in
+                            SectionView(section: item)
+                                .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX - 30)) / -20, axis: (x: 0, y: 10, z: 0))
+                        }
+                        .frame(width: 275, height: 275)
                     }
-                    .frame(width: 275, height: 275)
                 }
+                .padding(30)
+                .padding(.bottom, 30)
             }
-            .padding(30)
-            .padding(.bottom, 30)
+            .padding(.top, 0)
+            .navigationBarTitle("Главная страница", displayMode: .inline)
+            .navigationBarItems(trailing: NavigationLink(destination: ListOfExpenses()) {
+                Image(systemName: "arrow.right.circle")
+            })
         }
-        .padding(.top, 0)
+        
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6467FE022AE3DE88006DD2EF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467FE012AE3DE88006DD2EF /* AddView.swift */; };
+		6467FE032AE3DE88006DD2EF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467FE012AE3DE88006DD2EF /* AddView.swift */; };
 		647FCE482AE00E28009FA66A /* FinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647FCE382AE00E25009FA66A /* FinanceApp.swift */; };
 		647FCE492AE00E28009FA66A /* FinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647FCE382AE00E25009FA66A /* FinanceApp.swift */; };
 		647FCE4A2AE00E28009FA66A /* ScrollingCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647FCE392AE00E25009FA66A /* ScrollingCards.swift */; };
@@ -18,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6467FE012AE3DE88006DD2EF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		647FCE382AE00E25009FA66A /* FinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceApp.swift; sourceTree = "<group>"; };
 		647FCE392AE00E25009FA66A /* ScrollingCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingCards.swift; sourceTree = "<group>"; };
 		647FCE3A2AE00E27009FA66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 				647FCE392AE00E25009FA66A /* ScrollingCards.swift */,
 				647FCE3A2AE00E27009FA66A /* Assets.xcassets */,
 				64A2F9BE2AE130BC00008FFF /* ListOfExpenses.swift */,
+				6467FE012AE3DE88006DD2EF /* AddView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -180,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6467FE022AE3DE88006DD2EF /* AddView.swift in Sources */,
 				64A2F9BF2AE130BC00008FFF /* ListOfExpenses.swift in Sources */,
 				647FCE4A2AE00E28009FA66A /* ScrollingCards.swift in Sources */,
 				647FCE482AE00E28009FA66A /* FinanceApp.swift in Sources */,
@@ -190,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6467FE032AE3DE88006DD2EF /* AddView.swift in Sources */,
 				64A2F9C02AE130BC00008FFF /* ListOfExpenses.swift in Sources */,
 				647FCE4B2AE00E28009FA66A /* ScrollingCards.swift in Sources */,
 				647FCE492AE00E28009FA66A /* FinanceApp.swift in Sources */,
